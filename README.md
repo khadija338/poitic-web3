@@ -1,2 +1,2 @@
 # poitic-web3
-Author : Khadija Tasnim
+Author : Khadija Tasnim Khushi
