@@ -821,7 +821,7 @@ body {
   border: 5px solid var(--white-color);
   border-radius: 10px;
   display: flex;
-  position: absolute;
+  position: relative;
 }
 .add-area .Health-Wellness .add-section {
   background: var(--primary-color5);
@@ -925,11 +925,11 @@ body {
   background: var(--button-color);
   color: var(--white-color);
 }
-.add-area .Health-Wellness .close-btn {
+.add-area .close-btn {
   z-index: 99;
-  right: -10px;
-  top: -15px;
-  position: absolute;
+  right: 12px;
+  top: -11px;
+  position: relative;
 }
 
 /*================================================

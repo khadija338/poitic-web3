@@ -1031,7 +1031,7 @@ body {
     border: 5px solid var(--white-color);
     border-radius: 10px;
     display: flex;
-    position: absolute;
+    position: relative;
 
 
     .add-section {
@@ -1144,13 +1144,12 @@ body {
 
       }
     }
-
-    .close-btn {
-      z-index: 99;
-      right: -10px;
-      top: -15px;
-      position: absolute;
-    }
+  }
+  .close-btn {
+    z-index: 99;
+    right: 12px;
+    top: -11px;
+    position: relative;
   }
 }
 
