@@ -2538,7 +2538,7 @@ footer {
             }
 
             .banner-content-bottom {
-                padding-top: 315px;
+                padding-top: 300px;
                 margin-bottom: 20px;
 
                 @include xxl-down-device() {
@@ -2937,6 +2937,11 @@ footer {
             align-items: center;
             justify-content: center;
             margin: 0 auto;
+            
+            @include md-down-device() {
+               width: 0px;
+            }
+
 
             @include sm-down-device() {
                 min-width: 300px;
@@ -3046,12 +3051,21 @@ footer {
                 border-radius: 28px;
                 border: 1px solid #EEEEEE;
 
-
-
                 ul {
                     display: flex;
                     gap: 40px;
                     justify-content: center;
+                    
+                    @include xxl-down-device() {
+                       gap: 10px;
+                    }
+                    @include xl-down-device() {
+                       gap: 15px;
+                    }
+                    @include md-down-device() {
+                       gap: 50px;
+                    }
+
 
 
                     li {

@@ -2036,7 +2036,7 @@ footer .footer-btm .right-area p span:hover {
   border-radius: 100px;
 }
 .banner-area2 .banner-card .banner-content .banner-content-bottom {
-  padding-top: 315px;
+  padding-top: 300px;
   margin-bottom: 20px;
 }
 @media (max-width: 1399px) {
@@ -2375,6 +2375,11 @@ footer .footer-btm .right-area p span:hover {
   justify-content: center;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  .blog-post2 .contect-section .input-area {
+    width: 0px;
+  }
+}
 @media (max-width: 576px) {
   .blog-post2 .contect-section .input-area {
     min-width: 300px;
@@ -2466,6 +2471,21 @@ footer .footer-btm .right-area p span:hover {
   display: flex;
   gap: 40px;
   justify-content: center;
+}
+@media (max-width: 1399px) {
+  .blog-post2 .sidebar-area .single-widget .counter-up-area ul {
+    gap: 10px;
+  }
+}
+@media (max-width: 1199px) {
+  .blog-post2 .sidebar-area .single-widget .counter-up-area ul {
+    gap: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .blog-post2 .sidebar-area .single-widget .counter-up-area ul {
+    gap: 50px;
+  }
 }
 .blog-post2 .sidebar-area .single-widget .counter-up-area ul li a {
   display: flex;
